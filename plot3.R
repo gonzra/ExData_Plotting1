@@ -1,5 +1,8 @@
 source("dataLoader.R")
 
+## Call loadData defined in dataLoader.R and plots Submetering (1,2,3) vs Timestamp
+## Saves the plot in a png file
+
 createPlot3 <- function()
 {
   data <- loadData()

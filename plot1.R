@@ -1,5 +1,8 @@
 source("dataLoader.R")
 
+## Call loadData defined in dataLoader.R and Plots a histogram of Global Active Power variable
+## Saves the plot in a png file
+
 plot1 <- function()
 {
   png(filename = "plot1.png", width = 480, height = 480 )

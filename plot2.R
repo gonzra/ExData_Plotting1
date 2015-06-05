@@ -1,5 +1,8 @@
 source("dataLoader.R")
 
+## Call loadData defined in dataLoader.R and plots Global Active Power vs Timestamp
+## Saves the plot in a png file
+
 createPlot2 <- function()
 {
   data <- loadData()
